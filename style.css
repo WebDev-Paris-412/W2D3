@@ -1,0 +1,31 @@
+main {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	gap: 1rem;
+	height: 100vh;
+	font-family: sans-serif;
+}
+table {
+	border-collapse: collapse;
+}
+
+th {
+	padding: 0.5rem 0;
+	background: dodgerblue;
+	color: whitesmoke;
+}
+
+tbody {
+	& tr {
+		background-color: lightblue;
+		&:nth-child(odd) {
+			background-color: lightgoldenrodyellow;
+		}
+	}
+
+	& td {
+		padding: 0.25rem;
+	}
+}

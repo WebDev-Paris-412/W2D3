@@ -1,0 +1,18 @@
+main {
+	display: flex;
+	flex-wrap: wrap;
+	gap: 2rem;
+	justify-content: space-evenly;
+}
+
+.cube {
+	height: 50px;
+	width: 50px;
+	border: 1px solid black;
+	transition: 500ms;
+}
+
+.selected {
+	scale: 1.2;
+	border-color: yellow;
+}
